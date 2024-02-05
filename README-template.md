@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://fem-advice-generator-app-main.vercel.app/)
 
 ## My process
 
@@ -58,6 +58,6 @@ This project represents my first practical step towards working with APIs. It he
 
 ## Author
 
-- Website - [Joy Ibe](https://www.your-site.com)
+- Website - [Joy Ibe](https://www.joy-ibe-daflusher.vercel.app)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/DaFlusher)
 - Twitter - [@yourusername](https://www.twitter.com/@Joyibe17)
