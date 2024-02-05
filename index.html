@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!--OGP-->
+  <meta property="og:title" content="FEM-Advice generator" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.frontendmentor.io/solutions/responsive-fylo-dark-theme-landing-page-Gmkth45BNH" />
+    <meta property="og:description" content="Frontendmentor advice generator.It displays random advice from an api at the click of a button" />
+  <link rel="stylesheet" href="/index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: white; }
+    .attribution a { color: hsl(150, 100%, 66%) }
+  </style>
+</head>
+<body>
+    <main>
+        <header>
+          Advice <span id="advice-id"></span><!-- Advice ID goes here -->
+        </header>
+        <div class="content">
+          <p id="advice"></p>
+        </div>
+        <div class="divider"><img src="/images/pattern-divider-desktop.svg" alt="pattern divider" style="width: 100%;padding: 1rem 0;"></div>
+        
+        <div class="btn-bg"><img src="/images/icon-dice.svg" alt="dice" style="width: 50%;"onclick="fetchAdvice()"></div>
+
+        
+    </main>
+    
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.joy-ibe-daflusher.vercel.app" target="_blank">DaFlusher</a>.
+  </footer>
+  
+  <script src="/index.js"></script>
+</body>
+</html>
