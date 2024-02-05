@@ -29,4 +29,4 @@ const showAdvice = (adviceText, idText)=>{
 }
 
 //refresh every 10seconds if user does not click on the button
-// setInterval(fetchAdvice,8000);
+setInterval(fetchAdvice,8000);
